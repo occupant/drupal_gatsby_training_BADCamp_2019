@@ -27,6 +27,9 @@ const Header = ({ siteTitle, siteSlogan }) => (
           {siteTitle}: {siteSlogan}
         </Link>
       </h1>
+      <h2 style={{
+            color: `white`,
+          }}>{siteSlogan}</h2>
     </div>
   </header>
 )
